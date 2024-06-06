@@ -7,7 +7,7 @@ import Link from "next/link";
 import { CiWarning } from "react-icons/ci";
 import { IoIosArrowBack } from "react-icons/io";
 
-import ProfileCard from "@/app/components/UiComponents/ProfileCard";
+import ProfileCard from "@/app/components/ui/ProfileCard";
 
 interface Member {
   id: number;
@@ -39,7 +39,7 @@ export default function Page() {
         <p className="bg-orange-100 p-4 rounded ">
           <CiWarning className="inline" size={32} /> Soon we will upload{" "}
           <span className="text-xl font-semibold">{member?.name}</span> Tasks
-          during Cyberdude Network's until then you can checkout{" "}
+          during Cyberdude Network&apos;s until then you can checkout{" "}
           {member?.gender == "M" ? "his" : "her"}{" "}
           <Link
             className="font-semibold hover:underline"

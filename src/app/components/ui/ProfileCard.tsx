@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaClipboardList, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaClipboardList } from "react-icons/fa6";
 
 // Define the interface for props
 interface ProfileCardProps {
@@ -24,7 +24,7 @@ const ProfileCard: React.FC<ProfileCardProps> = ({
 }) => {
   return (
     <div className="bg-[#2B2A4C] h-auto sm:w-[280px] md:w-[350px]  text-center px-5 py-8 shadow rounded-lg mb-10">
-      {/* Profil Card */}
+      {/* Profile Card */}
       <div>
         {/* Profile Image */}
         <Image

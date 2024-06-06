@@ -1,6 +1,6 @@
 import TheNavbar from "./components/TheNavbar";
 import memberData from "@/app/data/index.json";
-import ProfileCard from "./components/UiComponents/ProfileCard";
+import ProfileCard from "./components/ui/ProfileCard";
 
 export default function Home() {
   return (
