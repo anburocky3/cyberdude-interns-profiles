@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function TheNavbar() {
   return (
-    <header className="flex bg-blue-500 p-10 text-center justify-center items-center space-x-4">
+    <header className="flex flex-col md:flex-row md:gap-4 bg-blue-500 p-5 text-center justify-center items-center space-y-4">
       <Image
         src="/cyberdude-logo.svg"
         alt="CyberDude Logo"
